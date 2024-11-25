@@ -13,7 +13,7 @@ export function middleware(request: NextRequest) {
  
 // See "Matching Paths" below to learn more
 export const config = {
-  matcher: ["/dashboard", "/cart"],
+  matcher: ["/dashboard"],
 }
 
 //otro codigo que mostro en el codereview
