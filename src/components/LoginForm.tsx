@@ -8,7 +8,7 @@ import Cookies from "js-cookie";
 import { UserContext } from "@/context/UserContext";
 import Swal from "sweetalert2";
 
-export default function LoginForm() {
+const LoginForm: React.FC = ()=> {
   const [loginData, setLoginData] = useState<ILoginData>({
     email: "",
     password: ""
@@ -131,3 +131,4 @@ export default function LoginForm() {
 
 
 
+export default LoginForm

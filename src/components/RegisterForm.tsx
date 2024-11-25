@@ -6,7 +6,7 @@ import { validateRegister } from "../helpers/validateRegister";
 import { IRegisterData, IRegisterErrors } from "@/interfaces/IRegister";
 
 import { useRouter } from "next/navigation";
-import fetchRegister from "@/api/registerAPI";
+import fetchRegister from "@/api/RegisterAPI";
 //cambie router por navigation
 
 const RegisterForm: React.FC = () => {

@@ -13,12 +13,6 @@ export interface ICardProps {
     // El componente espera un objeto 'product' que sigue la estructura definida en IProduct.
 }
 
-export interface IDetailProps {
-    params: {
-        id: string;
-    };
-}
-
 export interface ICartProduct {
     id: string;
     name: string;
@@ -27,3 +21,4 @@ export interface ICartProduct {
     quantity: number;
   }
 
+  

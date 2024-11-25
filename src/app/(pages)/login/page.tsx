@@ -1,6 +1,6 @@
 import LoginForm from "@/components/LoginForm"
 
-export default function Login() {
+const Login: React.FC = () =>{
   
   return (
     <div className="font-inter overflow-hidden relative">
@@ -17,3 +17,5 @@ export default function Login() {
     </div>
   );
 }
+
+export default Login
