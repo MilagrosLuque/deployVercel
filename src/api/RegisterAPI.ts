@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 
 export async function fetchRegister(registerData:IRegisterData) {
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/users/register`,{
+      const res = await fetch(`https://drc116rn-3002.brs.devtunnels.ms/users/register`,{
         method: "POST",
         headers:{
             "Content-Type":"application/json",

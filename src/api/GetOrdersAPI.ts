@@ -2,7 +2,7 @@ import Swal from "sweetalert2";
 
 export const GetOrders= async (token:string)=>{
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/users/orders`,{
+        const res = await fetch(`https://drc116rn-3002.brs.devtunnels.ms/users/orders`,{
           method: "GET",
           cache:"no-store",
           headers:{

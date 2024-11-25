@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 export async function fetchLogin(loginData:ILoginData) {
     try {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/users/login`,{
+      const res = await fetch(`https://drc116rn-3002.brs.devtunnels.ms/users/login`,{
         method: "POST",
         headers:{
             "Content-Type":"application/json",

@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 
 export const Checkout = async (token:string, products:number[])=>{
     try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/orders`,{
+        const res = await fetch(`https://drc116rn-3002.brs.devtunnels.ms/orders`,{
           method: "POST",
           headers:{
               "Content-Type":"application/json",
