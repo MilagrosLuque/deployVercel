@@ -22,3 +22,7 @@ export interface ICartProduct {
   }
 
   
+
+  export interface IDetailProps {
+    params: Promise<{id: string}>
+}
