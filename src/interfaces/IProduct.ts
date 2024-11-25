@@ -10,7 +10,6 @@ export interface IProduct {
 
 export interface ICardProps {
     product: IProduct
-    // El componente espera un objeto 'product' que sigue la estructura definida en IProduct.
 }
 
 export interface ICartProduct {
