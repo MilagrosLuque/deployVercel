@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 export const fetchDataProducts = async (): Promise<IProduct[]> => {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`, {
+    const res = await fetch(`https://drc116rn-3002.brs.devtunnels.ms/products`, {
       next: { revalidate: 1200 },
     })
     if (!res.ok) {
