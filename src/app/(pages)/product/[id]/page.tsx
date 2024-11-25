@@ -3,7 +3,7 @@ import { IDetailProps, IProduct } from "@/interfaces/IProduct";
 //const APIURL = process.env.API_URL;
 
 const fetchDataProducts = async (): Promise<IProduct[]> =>{
-  const res = await fetch( `${process.env.NEXT_PUBLIC_API_URL}/products`,{
+  const res = await fetch( `https://drc116rn-3002.brs.devtunnels.ms/products`,{
     next: { revalidate: 1200 }
   })
   const data = await res.json()
